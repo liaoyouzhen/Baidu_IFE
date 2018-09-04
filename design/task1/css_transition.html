@@ -12,10 +12,20 @@
     <p class="test-font-color">
         前端学院
     </p>
-    <div class="transition-div">
+    <div class="transition-btn transition-div">
     </div>
     <button class="change-style">切换样式</button>
   </div>
-  <script src="./js/task_transition.js"></script>
+  <script>
+    document.queryselector('.change-style').onclick=function(){
+      var transition_div=document.queryselector('.change-style');
+      if(transition_div.classList.contains('.active')){
+      transition_div.classList.remove('.active');
+      }
+      else{
+        transition_div.classList.add('.active');
+      }
+    }
+  </script>
 </body>
 </html>
