@@ -3,8 +3,11 @@
 .test-font-color{
 }
 .transition-div{
+  color:#333;
+  width:150px;
 }
 .change-style{
+  text-align:center;
 border:1px solid #333;
 border-radius:5px;
 }
