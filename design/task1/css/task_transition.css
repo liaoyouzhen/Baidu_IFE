@@ -4,8 +4,9 @@
 }
 .transition-div{
   color:#333;
-  width:150px;
-  transition: width 2s;
+  width:0px;
+  height:5px;
+  transition: width 2s,color 2s;
   -moz-transition: width 2s; /* Firefox 4 */
 -webkit-transition: width 2s; /* Safari 和 Chrome */
 -o-transition: width 2s; /* Opera */
