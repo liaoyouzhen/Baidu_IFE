@@ -5,9 +5,18 @@
 .transition-div{
   color:#333;
   width:150px;
+  transition: width 2s;
+  -moz-transition: width 2s; /* Firefox 4 */
+-webkit-transition: width 2s; /* Safari 和 Chrome */
+-o-transition: width 2s; /* Opera */
+  
 }
 .change-style{
   text-align:center;
 border:1px solid #333;
 border-radius:5px;
+}
+.transition-div .active{
+  color:#3498DB;
+  width:300px;
 }
